@@ -50,3 +50,8 @@
         text-align: center;
     }
 }
+
+#thumb-bar > img {
+    display: inline-block;
+    max-width: 20%;
+}
