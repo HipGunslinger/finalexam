@@ -1,7 +1,52 @@
-body {
-    font-family: 'Montserrat', sans-serif;
+@media only screen and (max-width: 639px) {
+    body {
+        font-family: 'Montserrat', sans-serif;
+        width: 80%;
+        display: block;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    label {
+        text-align: center;
+        display: block;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    input {
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+
+    button {
+        left: 50%;
+        right: 50%;
+        position: absolute;
+    }
+
+    div img {
+        width: 20%;
+    }
 }
 
-div img {
-    width: 20%;
+@media only screen and (min-width: 640px) {
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        max-width: 640px;
+        margin: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
 }
